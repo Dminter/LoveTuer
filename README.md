@@ -4,8 +4,7 @@
 - 由于此项目未维护多日(不好意思) 此版本可能无法运行 仅可参考代码 
 - 兔耳日记是个小清新非常不错的日记网站 
 - 开源Android端旨在有识之士能把app做好 更好服务用户
-
--base on [兔耳API](https://github.com/xiaojue/tuer.me/blob/master/docs/index.md)
+- base on [兔耳API](https://github.com/xiaojue/tuer.me/blob/master/docs/index.md)
 
 ![img1](/img/device-2014-04-21-094238.png)
 ![img1](/img/device-2014-04-21-094254.png)
