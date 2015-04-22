@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tvPage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="111"
+                android:layout_marginRight="5dip"
+                android:textColor="@color/gray" />
+
+            <TextView
+                android:id="@+id/tvContent"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:textSize="40sp"
+                android:text="1+8=?"
+                android:textColor="@color/black" />
+
+            <RadioGroup
+                android:id="@+id/rbGroup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rbA"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A---" />
+
+                <RadioButton
+                    android:id="@+id/rbB"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A---" />
+
+                <RadioButton
+                    android:id="@+id/rbC"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A---" />
+
+                <RadioButton
+                    android:id="@+id/rbD"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A---" />
+
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/tvAnswer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:textSize="15sp"
+                android:visibility="gone"
+                android:text="1+8=?"
+                android:textColor="@color/black" />
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ivPre"
+
+                    android:layout_width="120dip"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/arrow_left"
+                    android:layout_height="120dip" />
+
+                <ImageView
+                    android:id="@+id/ivNext"
+
+                    android:layout_width="120dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/arrow_right"
+                    android:layout_height="120dip" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

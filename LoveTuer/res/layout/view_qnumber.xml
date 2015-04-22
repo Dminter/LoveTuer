@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical">
+
+
+    <TableRow
+        android:id="@+id/tablerow_5"
+        style="@style/setting_table_row"
+        android:clickable="true">
+
+        <TextView
+            style="@style/setting_text"
+            android:text="5题" />
+    </TableRow>
+
+    <include layout="@layout/view_setting_div_second" />
+
+    <TableRow
+        android:id="@+id/tablerow_10"
+        style="@style/setting_table_row"
+        android:clickable="true">
+
+        <TextView
+            style="@style/setting_text"
+            android:text="10题" />
+    </TableRow>
+
+    <include layout="@layout/view_setting_div_second" />
+
+    <TableRow
+        android:id="@+id/tablerow_15"
+        style="@style/setting_table_row"
+        android:clickable="true">
+
+        <TextView
+            style="@style/setting_text"
+            android:text="15题" />
+    </TableRow>
+
+    <include layout="@layout/view_setting_div_second" />
+
+    <TableRow
+        android:id="@+id/tablerow_20"
+        style="@style/setting_table_row"
+        android:clickable="true">
+
+        <TextView
+            style="@style/setting_text"
+            android:text="20题" />
+    </TableRow>
+
+    <include layout="@layout/view_setting_div_second" />
+
+    <TableRow
+        android:id="@+id/tablerow_25"
+        style="@style/setting_table_row"
+        android:clickable="true">
+
+        <TextView
+            style="@style/setting_text"
+            android:text="25题" />
+    </TableRow>
+
+    <include layout="@layout/view_setting_div_second" />
+
+    <TableRow
+        android:id="@+id/tablerow_30"
+        style="@style/setting_table_row"
+        android:clickable="true">
+
+        <TextView
+            style="@style/setting_text"
+            android:text="30题" />
+    </TableRow>
+
+    <include layout="@layout/view_setting_div_second" />
+
+
+</LinearLayout>

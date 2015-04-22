@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 父类为Theme.Sherlock.Light，即白底黑字（如果是Theme.Sherlock，则为黑底白字）, 为了兼容考虑，所有样式的相关item需要写2遍-->
+    <style name="Theme.DEMO" parent="Theme.Sherlock.Light">
+        <item name="actionBarStyle">@style/Widget.DEMO.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.DEMO.ActionBar</item>
+    </style>
+
+    <!-- 标题栏的样式 -->
+    <style name="Widget.DEMO.ActionBar" parent="Widget.Sherlock.ActionBar.Solid">
+        <item name="background">#FF0000</item>
+        <!-- 点击标题栏按钮 -->
+        <item name="backgroundStacked">#FF6600</item>
+        <!-- actionbar底部 -->
+        <item name="backgroundSplit">#41ace9</item>
+        <item name="titleTextStyle">@style/Widget.DEMO.ActionBar.Title</item>
+        <!-- 标题背景 -->
+        <item name="android:background">#41ace9</item>
+        <!-- actionbar文本 -->
+        <item name="android:backgroundStacked">#f7f7f7</item>
+
+        <item name="android:titleTextStyle">@style/Widget.DEMO.ActionBar.Title</item>
+    </style>
+
+    <!-- 标题栏的标题样式 -->
+    <style name="Widget.DEMO.ActionBar.Title" parent="@android:TextAppearance.Holo.Widget.ActionBar.Title">
+        <!-- 标题栏文本 -->
+        <item name="android:textColor">#cfcfcf</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical">
+
+
+    <TableRow
+        android:id="@+id/tablerow_10"
+        style="@style/setting_table_row"
+        android:clickable="true">
+
+        <TextView
+            style="@style/setting_text"
+            android:text="10以内" />
+    </TableRow>
+
+    <include layout="@layout/view_setting_div_second" />
+
+    <TableRow
+        android:id="@+id/tablerow_20"
+        style="@style/setting_table_row"
+        android:clickable="true">
+
+        <TextView
+            style="@style/setting_text"
+            android:text="20以内" />
+    </TableRow>
+
+    <include layout="@layout/view_setting_div_second" />
+
+    <TableRow
+        android:id="@+id/tablerow_50"
+        style="@style/setting_table_row"
+        android:clickable="true">
+
+        <TextView
+            style="@style/setting_text"
+            android:text="50以内" />
+    </TableRow>
+
+    <include layout="@layout/view_setting_div_second" />
+
+    <TableRow
+        android:id="@+id/tablerow_100"
+        style="@style/setting_table_row"
+        android:clickable="true">
+
+        <TextView
+            style="@style/setting_text"
+            android:text="100以内" />
+    </TableRow>
+
+    <include layout="@layout/view_setting_div_second" />
+
+    <TableRow
+        android:id="@+id/tablerow_500"
+        style="@style/setting_table_row"
+        android:clickable="true">
+
+        <TextView
+            style="@style/setting_text"
+            android:text="500以内" />
+    </TableRow>
+
+    <include layout="@layout/view_setting_div_second" />
+
+    <TableRow
+        android:id="@+id/tablerow_1000"
+        style="@style/setting_table_row"
+        android:clickable="true">
+
+        <TextView
+            style="@style/setting_text"
+            android:text="1000以内" />
+    </TableRow>
+
+    <include layout="@layout/view_setting_div_second" />
+
+
+</LinearLayout>

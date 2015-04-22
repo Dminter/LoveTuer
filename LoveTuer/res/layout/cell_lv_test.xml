@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="45dip"
+    android:background="@drawable/sel_item"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:singleLine="true"
+            android:layout_centerVertical="true"
+            android:text="111111111"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:textColor="@color/red"
+            android:textSize="20dip" />
+
+        <TextView
+            android:id="@+id/tvContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/tvScore"
+            android:layout_centerVertical="true"
+            android:text="wwwwwwwwww"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:textColor="@color/black"
+            android:textSize="15dip" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:singleLine="true"
+            android:layout_centerVertical="true"
+            android:text="111111111"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:textColor="@color/gray"
+            android:textSize="15dip" />
+
+        <TextView
+            android:id="@+id/tvStar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:singleLine="true"
+            android:layout_toLeftOf="@+id/tvTime"
+            android:layout_centerVertical="true"
+            android:text="wwwwwwwwww"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:textColor="@color/black"
+            android:textSize="15dip" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="wwwwwwwwww"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:textColor="@color/black"
+        android:textSize="15dip" />
+
+</LinearLayout>

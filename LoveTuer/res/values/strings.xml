@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- pulltorefresh -->
+    <string name="pull_to_refresh_pull_label">正在载入…</string>
+    <string name="pull_to_refresh_release_label">正在载入…</string>
+    <string name="pull_to_refresh_refreshing_label">正在载入…</string>
+    <string name="pull_to_loadmore">正在载入…</string>
+    <!-- Just use standard Pull Down String when pulling up. These can be set for languages which require it -->
+    <string name="pull_to_refresh_from_bottom_pull_label" translatable="false">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label" translatable="false">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label" translatable="false">@string/pull_to_refresh_refreshing_label</string>
+
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="app_down">http://www.appchina.com/app/com.zncm.myhelper/</string>
+  <string name="app_recommend_myhelper">1.笔记，加标签分类记笔记，可摘记读书笔记，可添加图片，录音，涂鸦位置信息或者表情到笔记里面，内容丰富多彩，记录你生活中的点点滴滴。\n
+2.记账，标签记账，方便快捷，柱状图账目分析，清晰明了，是你理财的好帮手。\n
+3.清单，重要事件无遗漏。\n
+4.提醒，朋友的生日，恋人纪念日帮你记。\n
+5.手电，日历，日期查询，备份功能一应俱全，便捷你的生活。\n
+6.分享，支持把日记分享到各大社交软件。\n</string>
+
+
+<string name="app_recommend_zidian">
+1.易字典收录简体汉字两万余个,提供汉字的拼音、笔画、部首、多音字、字义及详细解释等详细信息查询，致力于打造用户喜爱的android汉语字典。  \n
+2.Android原生设计风格,简约美观。 \n
+3.易字典提供汉字、拼音、笔画、偏旁、首字母查字，简洁明了，让你方便快捷查到自己所需的字。  \n
+4.内含习字,汉字收藏等功能。 \n
+</string>
+<string name="app_recommend_cy">
+1.易成语共收录成语三万余条，每条成语包括拼音、释义、出处等内容。   \n
+2.查询成语便捷，智能匹配首部尾部和任意位置的关键字。无需联网，随时随地随心用。  \n
+3.可根据字数匹配成语，成语接龙游戏让你学习词条更富乐趣，成语收藏，更快更方便掌握成语。  \n
+</string>
+<string name="app_recommend_sc">
+1.收纳唐诗,宋词,元曲两百多位诗人,词人的近一千篇优秀作品,可谓是品类齐全\n
+2."熟读唐诗三百首,不会作诗也会吟",本软件是幼儿启蒙,中小学生接受诗歌熏陶,了解中国古典诗词的绝佳入门\n
+3.本应用查询诗词方便容易,可以根据诗人,诗歌名称,诗歌体裁,诗歌内容查询诗歌,排版整洁清晰,还附带注解以及百度百科的解释,有助于你能更快更好的掌握诗词,还可对感觉不错的诗词进行收藏,以备随时随地诵读和学习\n
+</string>
+
+    <string name="app_new">
+
+</string>
+    <string name="alipay_account">
+       https://me.alipay.com/dminter
+</string>
+
+<string name="app_about">
+    爱兔耳,兔耳网http://www.tuer.me/第三方Android客户端,依照Tuer API 说明文档开发,实现用户授权登陆,完成查看日记,查看关注者日记,浏览最新日记以及记日记的功能,希望你能喜欢,也欢迎你提出宝贵的意见.
+</string>
+<string name="app_version">
+        V1.0.4\n
+1.修复不能注销登陆的BUG\n
+2.新增日记头像,图片缓存到本地不多耗费用户流量\n
+3.新增个人主页,点击头像可以进入到个人主页,且能关注此人\n
+4.更换HTTP框架,网络请求更加流畅,更好的支持图片上传下载\n
+5.去掉侧边栏意见反馈[有朋友提议此项不合符整体风格]\n
+6.进入APP,若有消息则提示用户\n
+7.评论不采用对话框,进到新的页面书写评论\n
+8.其他小点,是否公开显示等\n
+9.已知BUG的修复\n
+    V1.0.2\n
+1.新增消息提醒功能,随时把握日记动态\n
+2.日记评论及删除实时刷新\n
+3.新增日记可以接收来自其他程序的内容(其他APP看到的精彩段子可以点击分享到本软件)\n
+4.修复已知BUG\n
+V1.0.0\n
+1.用户授权登陆\n
+2.查看全站最新日记,我的日记以及关注的日记\n
+3.写日记,修改自己的日记,删除自己的日记\n
+4.日记评论和回复\n
+</string>
+
+
+    <string name="app_name">爱兔耳</string>
+    <string name="eq_add">
+&#160;1+1=2\n
+1+2=3    2+2=4\n
+1+3=4     2+3=5     3+3=6\n
+1+4=5     2+4=6     3+4=7     4+4=8\n
+1+5=6     2+5=7     3+5=8     4+5=9     5+5=10\n
+1+6=7     2+6=8     3+6=9     4+6=10    5+6=11    6+6=12\n
+1+7=8     2+7=9     3+7=10    4+7=11    5+7=12    6+7=13    7+7=14\n
+1+8=9     2+8=10    3+8=11    4+8=12    5+8=13    6+8=14    7+8=15    8+8=16\n
+1+9=10    2+9=11    3+9=12    4+9=13    5+9=14    6+9=15    7+9=16    8+9=17      9+9=18\n
+    </string>
+    <string name="eq_jian">
+&#160;9-1=8       \n
+9-2=7    8-1=7         \n
+9-3=6    8-2=6    7-1=6           \n
+9-4=5     8-3=5     7-2=5     6-1=5             \n
+9-5=4    8-4=4     7-3=4    6-2=4     5-1=4             \n
+9-6=3     8-5=3    7-4=3     6-3=3    5-2=3    4-1=3             \n
+9-7=2      8-6=2     7-5=2     6-4=2    5-3=2    4-2=2    3-1=2          \n
+9-8=1      8-7=1     7-6=1    6-5=1    5-4=1    4-3=1    3-2=1     2-1=1     \n
+9-9=0    8-8=0     7-7=0    6-6=0     5-5=0     4-4=0    3-3=0    2-2=0     1-1=0  \n
+
+    </string>
+    <string name="eq_cheng">
+&#160;1×1=1                            \n
+1×2=2    2×2=4                   \n
+1×3=3     2×3=6    3×3=9              \n
+1×4=4     2×4=8     3×4=12     4×4=16                   \n
+1×5=5    2×5=10     3×5=15    4×5=20     5×5=25     \n
+1×6=6     2×6=12    3×6=18     4×6=24    5×6=30    6×6=36          \n
+1×7=7      2×7=14     3×7=21     4×7=28    5×7=35    6×7=42    7×7=49        \n
+1×8=8      2×8=16     3×8=24    4×8=32    5×8=40    6×8=48     7×8=56     8×8=64   \n
+1×9=9    2×9=18     3×9=27     4×9=36     5×9=45     6×9=54     7×9=63    8×9=72      9×9=81\n
+    </string>
+    <string name="eq_chu">
+&#160;1÷1=1    2÷2=1    3÷3=1    4÷4=1    5÷5=1    6÷6=1    7÷7=1    8÷8=1    9÷9=1\n
+2÷1=2    4÷2=2    6÷3=2    8÷4=2    10÷5=2    12÷6=2    14÷7=2    16÷8=2    18÷9=2\n
+3÷1=3    6÷2=3    9÷3=3    12÷4=3    15÷5=3    18÷6=3    21÷7=3    24÷8=3    27÷9=3\n
+4÷1=4    8÷2=4    12÷3=4    16÷4=4    20÷5=4    24÷6=4    28÷7=4    32÷8=4    36÷9=4\n
+5÷1=5    10÷2=5    15÷3=5    20÷4=5    25÷5=5    30÷6=5    35÷7=5    40÷8=5    45÷9=5\n
+6÷1=6    12÷2=6    18÷3=6    24÷4=6    30÷5=6    36÷6=6    42÷7=6    48÷8=6    54÷9=6\n
+7÷1=7    14÷2=7    21÷3=7    28÷4=7    35÷5=7    42÷6=7    49÷7=7    56÷8=7    63÷9=7\n
+8÷1=8    16÷2=8    24÷3=8    32÷4=8    40÷5=8    48÷6=8    56÷7=8    64÷8=8    72÷9=8\n
+9÷1=9    18÷2=9    27÷3=9    36÷4=9    45÷5=9    54÷6=9    63÷7=9    72÷8=9    81÷9=9\n
+
+
+    </string>
+</resources>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zncm.lovetuer"
+    android:installLocation="auto"
+    android:versionCode="104"
+    android:versionName="1.0.4">
+
+    <uses-sdk android:minSdkVersion="14" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:name="com.zncm.lovetuer.global.SharedApplication"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.DEMO">
+        <activity
+            android:name=".modules.base.Main"
+            android:theme="@style/Theme.Sherlock.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.zncm.lovetuer.modules.note.TipsAc" />
+        <activity android:name="com.zncm.lovetuer.modules.note.NoteComment" />
+        <activity android:name="com.zncm.lovetuer.modules.note.zone.ZoneTabsPager" />
+        <activity android:name="com.zncm.lovetuer.modules.note.NoteDetails" />
+        <activity android:name=".modules.base.LoginActivity" />
+        <activity android:name="com.zncm.lovetuer.modules.note.NoteAddActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"></action>
+
+                <category android:name="android.intent.category.DEFAULT"></category>
+
+                <data android:mimeType="text/*"></data>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zncm.lovetuer.modules.note.NoteContent" />
+        <activity android:name=".modules.base.MainTabsPager" />
+        <activity android:name=".modules.other.About" />
+        <activity android:name=".modules.setting.SettingHomeActivity" />
+        <activity android:name=".modules.setting.SettingNormalActivity" />
+        <activity
+            android:name=".modules.base.SplashActivity"
+            android:theme="@style/Theme.Sherlock.NoActionBar" />
+
+        <!-- UMENG_ADD -->
+        <activity
+            android:name="com.umeng.fb.ConversationActivity"
+            android:theme="@style/Theme.Sherlock.NoActionBar" />
+        <activity
+            android:name="com.umeng.fb.ContactActivity"
+            android:theme="@style/Theme.Sherlock.NoActionBar" />
+        <activity
+            android:name="com.umeng.update.UpdateDialogActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="534f44f156240bc9d00002b9"></meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="JMX"></meta-data>
+
+        <service
+            android:name="com.umeng.common.net.DownloadingService"
+            android:process=":DownloadingService"></service>
+
+        <!-- UMENG_END -->
+    </application>
+
+    <!-- UMENG_ADD -->
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <!-- UMENG_END -->
+
+</manifest>

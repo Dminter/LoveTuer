@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical">
+
+    <TableRow
+        android:id="@+id/trEdit"
+        style="@style/setting_table_row"
+        android:clickable="true">
+
+        <TextView
+            style="@style/setting_text"
+            android:text="编辑" />
+    </TableRow>
+
+    <include layout="@layout/view_div" />
+
+    <TableRow
+        android:id="@+id/trDel"
+        style="@style/setting_table_row"
+        android:clickable="true">
+
+        <TextView
+            style="@style/setting_text"
+            android:text="删除" />
+    </TableRow>
+
+    <include layout="@layout/view_div" />
+
+    <TableRow
+        android:id="@+id/trCopy"
+        style="@style/setting_table_row"
+        android:clickable="true">
+
+        <TextView
+            style="@style/setting_text"
+            android:text="复制" />
+    </TableRow>
+
+    <include layout="@layout/view_div" />
+
+</LinearLayout>

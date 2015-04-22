@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical">
+
+    <include layout="@layout/cell_note_details" />
+
+    <include layout="@layout/view_div" />
+
+    <include layout="@layout/view_list_base" />
+
+
+</LinearLayout>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvXi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/tag_sel"
+            android:text="喜" />
+
+        <TextView
+            android:id="@+id/tvNu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/tag_nor"
+            android:text="怒" />
+
+        <TextView
+            android:id="@+id/tvAi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/tag_nor"
+            android:text="哀" />
+
+        <TextView
+            android:id="@+id/tvLe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/tag_nor"
+            android:text="乐" />
+
+
+        <TextView
+            android:id="@+id/tvQing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="20dip"
+            android:textColor="@color/white"
+            android:background="@drawable/tag_sel"
+            android:text="晴" />
+
+        <TextView
+            android:id="@+id/tvYin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/tag_nor"
+            android:text="阴" />
+
+        <TextView
+            android:id="@+id/tvYu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/tag_nor"
+            android:text="雨" />
+
+        <TextView
+            android:id="@+id/tvXue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/tag_nor"
+            android:text="雪" />
+    </LinearLayout>
+
+    <include layout="@layout/view_div" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:orientation="horizontal">
+
+
+        <CheckBox
+            android:id="@+id/cbPrivacy"
+            style="@style/setting_checkbox"
+            android:text="只有自己可见"
+            android:textColor="@color/gray"
+            android:checked="false" />
+
+        <CheckBox
+            android:id="@+id/cbReplyable"
+            style="@style/setting_checkbox"
+            android:layout_marginLeft="20dip"
+            android:textColor="@color/gray"
+            android:text="不允许被回复"
+            android:checked="false" />
+
+
+    </LinearLayout>
+
+    <include layout="@layout/view_div" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etLocation"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            style="@style/mEditText"
+            android:hint="写日记的地点"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+    <include layout="@layout/view_div" />
+
+    <LinearLayout
+        android:id="@+id/llEdit"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="5dip">
+
+
+        <EditText
+            android:id="@+id/etContent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:maxLength="2200"
+            style="@style/mEditText"
+            android:hint="开始写日记吧"
+            android:inputType="textCapSentences|textAutoCorrect|textMultiLine" />
+
+        <TextView
+            android:id="@+id/tvCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="-28dp"
+            android:singleLine="true"
+            android:text="0字"
+            android:textColor="#ff7f7f7f" />
+    </LinearLayout>
+
+</LinearLayout>
